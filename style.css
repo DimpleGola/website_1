@@ -1,0 +1,422 @@
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #ffba00;
+    height: 100x;
+    padding: 1%;
+
+    /* To make header fixed to the top */
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 5%;
+
+}
+
+.logo h2 {
+    color: #0c3b2e;
+    text-align: left;
+}
+
+nav {
+    width: 50%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    gap: 5%;
+}
+
+nav ul li {
+
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-emphasis: bold;
+    color: black;
+}
+
+.call {
+    width: 20%;
+
+}
+
+.call button {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0c3b2e;
+    border: 0;
+    border-radius: 5px;
+    float: right;
+    color: white;
+    
+    
+
+
+}
+
+.content {
+    background-color: #0c3b2e;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.content1 {
+
+    text-align: left;
+    width: 55%;
+    padding: 5%;
+
+    position: relative;
+
+
+
+}
+
+
+.content1-style {
+    position: absolute;
+
+}
+
+h1 {
+    color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 60px;
+}
+
+.para1 {
+    color: white;
+    margin-top: 2%;
+
+    font-size: 30px;
+}
+
+.para2 {
+    color: white;
+    margin-top: 20%;
+    padding-right: 10%;
+    font-size: 18px;
+}
+
+
+
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15%;
+    background-color: #ffba00;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.content2 {
+
+    width: 50%;
+    height: 100%;
+
+
+}
+
+.content2 img {
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 85%;
+    float: right;
+
+
+}
+
+.foot {
+
+    width: 100%;
+    background-color: #ffba00;
+    height: 150px;
+    text-align: center;
+   
+   
+}
+
+.foot p {
+    color: rgb(37, 78, 37);
+    
+}
+
+.foot i {
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+
+    /* to align icons vertically */
+    /* width: 60px;
+    display:block;
+    position: sticky;
+     */
+   
+
+
+
+}
+
+.foot .fa-square-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+
+
+}
+
+.fa-square-instagram:hover {
+
+    border: #F71F85 solid;
+    cursor: pointer;
+}
+
+.foot .fa-twitter {
+    background-color: #1c96e8;
+    color: white;
+}
+
+.fa-twitter:hover {
+    background-color: white;
+    color: #1c96e8;
+    border: #1c96e8 solid;
+    cursor: pointer;
+}
+
+
+.foot .fa-facebook {
+    background-color: #0866ff;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background-color: white;
+    color: #0866ff;
+    border: #0866ff solid;
+    cursor: pointer;
+}
+
+.foot .fa-whatsapp {
+    background-color: #00860d;
+    color: white;
+}
+
+.fa-whatsapp:hover {
+    background-color: white;
+    color: #00860d;
+    border: #00860d solid;
+    cursor: pointer;
+}
+
+
+
+.fa-square-github {
+    background-color: black;
+    color: white;
+    /* border: white solid; */
+    cursor: pointer;
+}
+
+.foot .fa-square-github:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #000;
+
+}
+
+.foot.fa-house {
+    background-color: #0866ff;
+    color: #F71F85;
+}
+
+.fa-house:hover {
+    background-color: black;
+    color: rgb(195, 12, 12);
+    border: black solid;
+    cursor: pointer;
+}
+
+
+.banner {
+    background-color: #6d9773;
+    width: 100%;
+    height: auto;
+    color: #fff;
+
+}
+
+
+.div1 {
+
+    width: 100%;
+    height: inherit;
+
+    display: flex;
+
+}
+
+.div1A {
+
+    padding: 5%;
+    width: 55%;
+
+    font-size: 45px;
+
+    /* padding-left: 5%;
+        padding-right: 5% ; */
+}
+
+.div1B {
+    padding: 5%;
+
+    width: 45%;
+
+    font-size: 25px;
+
+
+}
+
+.div2 {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+
+
+}
+
+.div2 img {
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+
+
+    /* height: 80%; */
+
+
+
+}
+
+.speakers {
+
+    background-color: #ffba00;
+    width: 100%;
+    height: 700px;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+
+
+}
+
+.speakers h1 {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 {
+
+    height: 50%;
+    text-align: center;
+
+}
+
+.card1 h2 {
+    margin-top: 2%;
+    font-weight: bolder;
+}
+
+.card1 h3 {
+    margin-top: 5%;
+}
+
+.sponser {
+
+    background-color: #6d9773;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    position: relative;
+}
+
+.sponser div {
+
+    width: 60%;
+
+
+}
+
+.sponser div img {
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sponser-head {
+    width: 40%;
+    color: #fff;
+    padding: 5% 10% 5% 5%;
+
+
+}
+
+.reach {
+
+    background-color: #0c3b2e;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    position: relative;
+}
+
+.reach div {
+
+    width: 60%;
+
+
+}
+
+.reach div img {
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.reach-head {
+    width: 40%;
+    color: #fff;
+    padding: 5% 10% 5% 5%;
+}
+
+
+
